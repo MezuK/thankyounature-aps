@@ -441,9 +441,11 @@ footer{
   background-image: url('img/reflorestamento.png');
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
   body{
     margin-bottom: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
   }
   .footer-container{
     height: 100%;
@@ -507,6 +509,8 @@ footer{
 @media screen and (max-width:900px){
   body{
     margin-bottom: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
   }
   .footer-container{
     height: 100%;
