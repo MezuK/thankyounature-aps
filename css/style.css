@@ -213,24 +213,132 @@ body{
   color: #f1f1f1;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px){
   body{
-    width: auto;
+    margin-bottom: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  .footer-container{
     height: 100%;
+    width: 100%;
   }
 
-  .login-form{
-    width: 80%;
-    height: auto;
-    padding: 0 15px;
+  .conteudo2{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 50%;
     align-items: center;
-    margin:10%;
+    margin: 0px;
   }
-  .social-media button{
+  .tudo{
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .social-media button img{
+  
+  .image{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 0 1px;
+  }
+  .image img{
+    width: 100%;
+    height: 100px;
+}
+.tudo2{
+  margin-left: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.imagPag{
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  margin: 0 20px;
+}
+.imgPag{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  margin: 0 20px;
+}
+}
+
+@media screen and (max-width:900px){
+  body{
+    margin-bottom: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  .footer-container{
+    height: 100%;
+    width: 100%;
+  }
+
+  .conteudo2{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    margin: 0px;
+  }
+  .tudo{
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 0 1px;
+  }
+  .image img{
+    width: 100%;
+    height: 100px;
+}
+.tudo2{
+  margin-left: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.imagPag{
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  margin: 0 20px;
+}
+.imgPag{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  margin: 0 20px;
+}
 }
